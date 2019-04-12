@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6956847ad2f3b094bba3c6d7cf8ab4b7, type: 3}
   m_Name: MediumHealth
   m_EditorClassIdentifier: 
-  name: Average Healing Potion
+  name: Light Healing Potion
   m_value: 15
   weight: 1
   amount: 10
