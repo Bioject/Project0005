@@ -7,6 +7,9 @@ public abstract class BaseItem : ScriptableObject {
     [SerializeField]
     private new string name;
     public string Name { get { return name; } set { name = value; } }
+    [SerializeField]
+    private UnityEngine.UI.Image icon;
+    public UnityEngine.UI.Image Icon { get { return icon; } set { icon = value; } }
     [Tooltip("The value at which an item is sold by")]
     [SerializeField]
     private int m_value;

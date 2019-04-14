@@ -8,6 +8,9 @@ public abstract class BaseWeapon : BaseItem
     [SerializeField]
     private int requiredLevel;
     public int RequiredLevel { get { return requiredLevel; } set { requiredLevel = value; } }
+    [SerializeField]
+    private AudioController attackSound;
+    public AudioController AttackSound { get { return attackSound; } set { attackSound = value; } }
     public static int idNumber;
     private int id;
     public int ID { get { return id; } set { id = value; } }

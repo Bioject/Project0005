@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Weapon", menuName = "Items/Weapon")]
-public class Weapon : BaseWeapon
+[CreateAssetMenu(fileName = "New Weapon", menuName = "Items/Weapons/Fire Arms/Standard")]
+public class Standard: FireArm
 {
-    private void Start()
-    {
-        //providing the object with a unique id number
-        idNumber++;
-        ID = idNumber;
-    }
 
     public override void Attack()
     {
